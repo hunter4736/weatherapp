@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather journal app</title>
+  <link rel="stylesheet" href="./app.css">
+</head>
+<body class="container">
+  <div class="box">
+  <div class="inputs">
+    <label class= "zip" for="zip">Zip Code</label>
+    <input class="ztext" type="text" id="zip" placeholder="Enter zip code">
+    <label class="feelingz" for="feelings">Feelings</label>
+    <textarea class="ftext" name="feelings" id="feelings" placeholder="Tell us how you really feel."></textarea>
+    <button id="generate">Generate</button>
+  </div>
+  </div>
+  <div class = "obox" class="ubox">
+    <div class="outputs">
+      <p class="name"></p>
+      <p class="date" id="dateNow"></p>
+      <p class="temp" id="temp"></p>
+      <p class="feelings"></p>
+    </div>  
+  </div>
+  <div id= "error"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+ 
+
+}
+
+.container{
+  display: grid;
+  background-image: url(./storm.jpg);
+  background-position:center;
+  background-size: 150%;
+
+}
+ 
+/* inputs */
+
+.inputs{
+  display:grid;
+  justify-content: space-around;
+  position: relative;
+  background-color: rgb(59, 59, 59);
+  opacity: 80%;
+  max-width: 25%;
+  left: 550px;
+  top: 200px;
+  border-radius: 20px;
+}
+
+.zip{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.feelingz{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.ztext{
+  text-align: center;
+  background-color: white;
+  opacity: 70%;
+  padding: 10px;
+}
+.ftext{
+  text-align: center;
+  background-color: white;
+  opacity: 70%;
+}
+button{
+  cursor: pointer;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+
+}
+
+/* Outputs */
+
+.outputs{
+  display: flex;
+  
+  text-align: center;
+  justify-content: space-around;
+  
+}
+.name{
+  font-size: 26px;
+  color: rgb(222, 235, 235);
+  padding: 10px;;
+}
+
+.temp{
+  font-size: 26px;
+  color: rgb(222, 235, 235);
+  padding: 10px;
+}
+
+.date{
+  font-size: 26px;
+  color: rgb(222, 235, 235);
+  padding: 10px;;
+}
+.feelings{
+  font-size: 20px;
+  color: rgb(222, 235, 235);
+  padding: 10px;
+}
+.obox{
+  background-color: rgb(59, 59, 59);
+  position:fixed;
+  justify-content: center;
+  
+  border-radius: 20px;
+  padding: 10px;
+  width:100%;
+ 
+  /*top: 180%;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  left:39%;
+  border-radius: 20px;
+}*/
+}
